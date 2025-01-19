@@ -10,7 +10,7 @@ from utils.configs import enable_gateway, api_prefix
 
 warnings.filterwarnings("ignore")
 
-
+#test
 log_config = uvicorn.config.LOGGING_CONFIG
 default_format = "%(asctime)s | %(levelname)s | %(message)s"
 access_format = r'%(asctime)s | %(levelname)s | %(client_addr)s: %(request_line)s %(status_code)s'
